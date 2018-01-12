@@ -1,7 +1,6 @@
 counter = 0
 
 number = {}
-number['zero'] = 0
 number['one'] = 0
 number['two'] = 0
 number['three'] = 0
@@ -16,13 +15,11 @@ number['ten'] = 0
 
 
 
-while counter < 100
-  random_number = rand(11)
+while counter < 1_000_000
+  random_number = rand(10) + 1
   counter += 1
 
-  if random_number == 0
-    number['zero'] += 1
-  elsif random_number == 1
+  if random_number == 1
     number['one'] += 1
   elsif random_number == 2
     number['two'] += 1
