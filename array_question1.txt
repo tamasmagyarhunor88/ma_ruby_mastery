@@ -1,0 +1,13 @@
+sentence = [ "Hello", "you", "are", "NOT", "welcome", "here" ]
+
+sentence.delete_at(-3)
+sentence.join(" ")
+
+# output : "Hello, you are welcome here"
+
+# Why I can't chain the methods together to make
+# sentence.delete_at(-3).join(" ") ?
+
+# Because the return value from delete_at(-3) method is a string,
+# which doesn't respond to the join method. It doesn't have that
+# method.
