@@ -2,7 +2,7 @@ puts "tweet about president"
 user_input = gets.chomp
 
 banned_phrases = ["sucks", "bad", "hate", "foolish", "danger to society"]
-word = "CENSURED"
+word = "CENSORED"
 
 current_index = 0
 
