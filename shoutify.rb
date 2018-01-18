@@ -1,8 +1,7 @@
 class String
   def shoutify
-    input = gets.chomp.upcase
-    return input + "!"
+    return self.upcase + "!"
   end
 end
 
-puts "".shoutify
+puts "string text to test".shoutify
